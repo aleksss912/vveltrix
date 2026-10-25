@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "dripfall",
+  "version": "${version}",
+  "name": "Mojang",
+  "description": "Klient: NameTag, Tracer, Hitbox, AutoLever, ErrorKiller, szybkie klapy. Menu pod klawiszem P.",
+  "authors": ["Ty"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.dripclient.DripClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
